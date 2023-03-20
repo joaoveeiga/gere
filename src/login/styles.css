@@ -1,0 +1,55 @@
+.primary-container {
+  display: flex;
+  flex-direction: row;
+}
+.sub-left-container {
+  margin-left: 25vmin;
+}
+.left-container {
+  background-color: var(--primary-color);
+  width: 60vw !important;
+}
+
+.right-container {
+  display: flex;
+  width: 40vw !important;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 20vmin;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25vw !important;
+  padding-top: 7vmin;
+}
+
+.title-container {
+  padding-top: 20vmin;
+}
+
+.sub-title-container {
+  margin-top: 2vmin !important;
+}
+
+h2 {
+  color: var(--primary-color);
+}
+
+img {
+  height: 15vmin;
+  width: 15vmin;
+}
+
+.input-label {
+  color: var(--primary-color) !important;
+  margin-top: 2vmin !important;
+  margin-bottom: 1vmin !important;
+}
+
+.forgot-password {
+  color: var(--primary-color) !important;
+}
+

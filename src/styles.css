@@ -1,0 +1,152 @@
+:root {
+  --primary-color-light: #3b3170;
+  --primary-color: #271f50;
+  --primary-color-dark: #171133;
+
+  --secondary-color-light: #bfa9d7;
+  --secondary-color: #9f8ec5;
+  --secondary-color-dark: #665aa6;
+
+  --gray-scale-light: #E1DFDF;
+  --gray-scale: #545252;
+  --gray-scale-dark: #928F8F;
+
+  --white: #ffffff;
+}
+
+body {
+  display: flex;
+}
+
+html {
+  color: var(--white);
+}
+
+h1 {
+  font-size: calc(32px + 0.390625vw);
+}
+
+h2 {
+  font-size: calc(28px + 0.390625vw);
+}
+
+h3 {
+  font-size: calc(24px + 0.390625vw);
+}
+
+h4 {
+  font-size: calc(20px + 0.390625vw);
+}
+
+p {
+  font-size: calc(16px + 0.390625vw);
+}
+
+.p2 {
+  font-size: calc(12px + 0.390625vw);
+}
+
+.small {
+  font-size: calc(8px + 0.390625vw) !important;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif !important;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  height: 100vh !important;
+  width: 100vw !important;
+}
+
+.semibold {
+  font-weight: 700 !important;
+}
+
+.regular {
+  font-weight: 400 !important;
+}
+
+.bold {
+  font-weight: 900 !important;
+}
+
+input {
+  width: 33vmin;
+  padding: 1vmin 0.75vmin;
+  border: 1px solid var(--gray-scale) !important;
+  border-radius: 8px;
+}
+
+input {
+  outline-color: var(--secondary-color) !important;
+}
+
+::placeholder {
+  color: var(--gray-scale-light) !important;
+}
+
+a {
+  color: var(--white) !important;
+  text-decoration: none !important;
+
+}
+
+a:-webkit-any-link {
+  color: var(--white);
+}
+
+a:hover {
+  text-decoration-line: underline !important;
+  cursor: pointer;
+}
+
+button {
+  width: 35vmin !important;
+  background-color: var(--primary-color-light);
+  color: var(--white) !important;
+  border: 0px !important;
+  padding: 1vmin 0.75vmin;
+  border-radius: 8px !important;
+  cursor: pointer !important;
+}
+
+button:hover {
+  background-color: var(--secondary-color-dark);
+}
+
+button:active {
+  background-color: var(--primary-color);
+}
+
+.ball {
+  height: 30vmin;
+  width: 30vmin;
+  border-radius: 50%;
+  position: absolute;
+  border: 1.5px solid white;
+  bottom: -8vmin;
+  left: -8vmin;
+}
+
+.ball2 {
+  height: 35vmin;
+  width: 35vmin;
+  border-radius: 50%;
+  position: absolute;
+  border: 1.5px solid white;
+  bottom: -0.5vmin;
+  left: -0.5vmin;
+}
+
+.ball3 {
+  height: 30vmin;
+  width: 30vmin;
+  border-radius: 50%;
+  position: absolute;
+  border: 1.5px solid white;
+  bottom: 60vmin;
+  left: 55vw;
+}
