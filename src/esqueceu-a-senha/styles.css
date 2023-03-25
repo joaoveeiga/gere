@@ -11,14 +11,20 @@
 .left-container {
   background-color: var(--primary-color);
   width: 60vw !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 1vmin;
 }
 
 .right-container {
   display: flex;
   width: 40vw !important;
+  align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-left: 20vmin;
+  padding: 0 1.5vmin;
 }
 
 .logo-container {
@@ -26,7 +32,7 @@
   justify-content: center;
   align-items: center;
   width: 25vw !important;
-  padding-top: 7vmin;
+  /* padding-top: 7vmin; */
 }
 
 .title-container {
@@ -39,6 +45,24 @@
 
 h2 {
   color: var(--primary-color);
+}
+
+.title {
+  color: var(--primary-color);
+}
+
+.subtitle-form {
+  color: var(--primary-color);
+}
+
+.p-spacing-container {
+  margin-top: 0.75vmin;
+}
+.spacing-container {
+  margin-top: 1vmin;
+}
+.xg-spacing-container {
+  margin-top: 2.5vmin;
 }
 
 img {

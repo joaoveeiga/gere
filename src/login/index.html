@@ -37,16 +37,17 @@
       </div>
       <div class="right-container">
         <h2 class="regular">Entrar na <span class="semibold">GERE</span></h2>
-        <form style="display: flex; flex-direction: column;">
+        <!-- Aqui é um post, tô usando get só para não tomar um 405 ao trocar de página. -->
+        <form action="../home/" method="get" class="form-container">
           <p class="input-label p2">Matrícula</p>
-          <input type="text" placeholder="Informe a sua matrícula" />
+          <input name="matricula" type="text" placeholder="Informe a sua matrícula" />
           <p class="input-label p2">Senha</p>
-          <input type="password" placeholder="Informe a sua senha" />
+          <input name="password" type="password" placeholder="Informe a sua senha" />
           <div style="margin-top: 1vmin">
             <a class="small forgot-password" href="../esqueceu-a-senha/">Esqueceu a sua senha?</a>
           </div>
           <div style="margin-top: 2.5vmin">
-            <button><p class="small semibold">Entrar</p></button>
+            <input type="submit" value="Entrar">
           </div>
         </form>
       </div>

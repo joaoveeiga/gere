@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>GERE</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+  </head>
+
+  <body>
+    <div class="primary-container">
+      <div class="ball">
+        <div class="ball2">
+          <div class="ball3"></div>
+        </div>
+      </div>
+      <div class="left-container container">
+        <div class="sub-left-container">
+          <div class="logo-container">  
+            <img src="../../assets/svgs/gere-logo.svg"/>
+          </div>
+          <div class="title-container">
+            <h1 class="regular">Bem-vindo a 
+              <span class="semibold">GERE!</span>
+            </p>
+          </div>
+          <div class="sub-title-container">
+            <p class="p2 subtitle">Recupere a sua senha.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="right-container">
+      <p class="title regular">Digite o e-mail cadastrado na sua conta</p>
+      <div class="spacing-container">
+        <p class="subtitle-form small">Será enviado um e-mail para o email cadastrado para recuperação da senha</p>
+      </div>
+        <!-- Aqui é um post, tô usando get só para não tomar um 405 ao trocar de página. -->
+        <form action="../login/" method="get" class=" spacing-container form-container">
+          <p class="input-label p2">E-mail</p>
+          <input name="email" type="text" placeholder="Digite o seu e-mail" />
+          <div class="xg-spacing-container">
+            <input type="submit" value="Enviar o e-mail">
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
