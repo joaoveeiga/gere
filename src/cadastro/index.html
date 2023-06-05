@@ -36,9 +36,7 @@
           <div class="sub-title-container">
             <p class="p2 subtitle">
               Já possui acesso?
-              <a href="../login/" class="p2 subtitle semibold"
-                >Faça o login.</a
-              >
+              <a href="../login/" class="p2 subtitle semibold">Faça o login.</a>
             </p>
           </div>
         </div>
@@ -46,24 +44,20 @@
     </div>
     <div class="right-container">
       <h2 class="regular">Criar nova conta</h2>
-      <form style="display: flex; flex-direction: column">
+      <form style="display: flex; flex-direction: column" id="sign-up-form" action="../login/" method="get">
         <p class="input-label small">Digite a sua matrícula</p>
-        <input type="text" placeholder="Informe a sua matrícula" />
+        <input id="matricula" type="text" placeholder="Informe a sua matrícula" />
         <p class="input-label small">Digite seu nome completo</p>
-        <input type="text" placeholder="Informe seu nome completo" />
+        <input id="nome-completo" type="text" placeholder="Informe seu nome completo" />
         <p class="input-label small">Informe o seu CPF</p>
-        <input type="text" placeholder="Informe o seu CPF" />
+        <input id="cpf" type="text" placeholder="Informe o seu CPF" />
         <p class="input-label small">Informe sua data de nascimento</p>
-        <input type="text" placeholder="DD/MM/AAAA" />
-        <div style="margin-top: 1vmin">
-          <a class="small forgot-password" href="../esqueceu-a-senha/"
-            >Esqueceu a sua senha?</a
-          >
-        </div>
+        <input id="data-de-nascimento" type="date" placeholder="DD/MM/AAAA" />
         <div style="margin-top: 2.5vmin">
-          <button><p class="small semibold">Continuar</p></button>
+          <input type="submit" value="Continuar" />
         </div>
       </form>
     </div>
+    <script type="module" src="./script.js"></script>
   </body>
 </html>

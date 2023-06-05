@@ -40,14 +40,15 @@
         <p class="subtitle-form small">Será enviado um e-mail para o email cadastrado para recuperação da senha</p>
       </div>
         <!-- Aqui é um post, tô usando get só para não tomar um 405 ao trocar de página. -->
-        <form action="../login/" method="get" class=" spacing-container form-container">
+        <form id="email-form" action="../login/" method="get" class=" spacing-container form-container">
           <p class="input-label p2">E-mail</p>
-          <input name="email" type="text" placeholder="Digite o seu e-mail" />
+          <input id="email" name="email" type="text" placeholder="Digite o seu e-mail" />
           <div class="xg-spacing-container">
             <input type="submit" value="Enviar o e-mail">
           </div>
         </form>
       </div>
     </div>
+    <script type="module" src="./script.js"></script>
   </body>
 </html>
